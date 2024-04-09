@@ -21,10 +21,14 @@ export default function FormButton({ title, ...rest }: FormInput) {
 const styles = StyleSheet.create({
   container: {
     marginTop: 8,
-    backgroundColor: "yellowgreen",
+    marginBottom: 8,
+    backgroundColor: "#0086ff",
     borderRadius: 4,
-    padding: 4,
+    padding: 16,
     width: "100%",
+    borderColor: "black",
+    borderWidth: 1,
+    alignItems: "center",
   },
   title: {
     fontWeight: "bold",

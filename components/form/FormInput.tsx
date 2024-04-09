@@ -23,10 +23,11 @@ export default function FormInput({ label, ...rest }: FormInput) {
 const styles = StyleSheet.create({
   container: {
     marginTop: 8,
-    backgroundColor: "lightgrey",
+    backgroundColor: "white",
     borderRadius: 4,
     padding: 4,
     width: "100%",
+    marginBottom: 10,
   },
   label: {
     fontWeight: "bold",
